@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+ 
+/* CSS for container*/
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* CSS for top-wrapper*/
+.top-wrapper {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    color: rgb(242, 242, 248);
+    background-image: url(cake4.jpg);
+    background-size: cover;
+    text-align: justify;
+
+}
+
+.top-wrapper h1 {
+    opacity:0.7 ;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+>.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+/* CSS for btn */
+.btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+btn:hover {
+    opacity: 1;
+}
+/* CSS for order*/
+.order {
+    background-color:#239b76 ;
+    
+}
+
+.facebook {
+    background-color:#3b5998 ;
+    margin-right: 10px;
+}
+
+.twitter {
+   background-color: #55acee; 
+}
+
+/* CSS for btn wrapper */
+.btn-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-wrapper p {
+    margin-top: 10px 0;
+    
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+/* CSS for Header*/
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(216, 233, 236, 0.9);
+}
+.header-left h1 {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color:rgba(255, 255, 255, 0.3) ;
+    transition:all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+.header-right a {
+    line-height: 65px;
+    padding-left: 25px;
+    padding-right:25px;
+    color:white;
+    display: block;
+}
+
+/* CSS for Cake-types*/
+.Cake-types {
+    height:500px ;
+    padding-bottom: 80px;
+    background-color:#f7f7f7 ;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.heading h2 {
+    font-weight: normal;
+}
+
+.type {
+    float:left;
+    width: 20%;
+}
+
+.cropped-image1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(248, 247, 248) ;
+    
+}
+
+.cropped-image2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(245, 242, 245);
+    
+}
+
+.cropped-image3 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(252, 249, 252);
+    
+}
+
+.cropped-image4 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(250, 247, 250) ;
+    
+}
+
+.cropped-image5 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(248, 244, 248);
+    
+}
+
+.cropped-image6 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(247, 243, 247);
+    
+}
+
+.cropped-image7 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(247, 244, 247) ;
+    
+}
+
+.cropped-image8 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(252, 246, 252);
+    
+}
+
+.cropped-image9 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(247, 243, 247);
+    
+}
+
+.cropped-image10 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid rgb(250, 245, 250) ;
+    
+}
+
+.container1 {
+    background-color:#FAFCFE;
+}
