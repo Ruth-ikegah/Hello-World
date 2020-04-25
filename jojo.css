@@ -24,7 +24,7 @@ a {
     color: rgb(242, 242, 248);
     background-image: url(cake4.jpg);
     background-size: cover;
-    text-align: justify;
+    text-align: center;
 
 }
 
@@ -39,56 +39,17 @@ a {
     margin-bottom: 3px;
 }
 
-/* CSS for btn */
-.btn {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-}
 
-btn:hover {
-    opacity: 1;
-}
-/* CSS for order*/
-.order {
-    background-color:#239b76 ;
-    
-}
 
-.facebook {
-    background-color:#3b5998 ;
-    margin-right: 10px;
-}
-
-.twitter {
-   background-color: #55acee; 
-}
-
-/* CSS for btn wrapper */
-.btn-wrapper {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.btn-wrapper p {
-    margin-top: 10px 0;
-    
-}
-
-.fa {
-    margin-right: 5px;
-}
 
 /* CSS for Header*/
 header {
     height: 65px;
     width: 100%;
     background-color: rgba(216, 233, 236, 0.9);
+    position: fixed;
+    top: o;
+    z-index: 10;
 }
 .header-left h1 {
     width: 124px;
@@ -106,17 +67,25 @@ header {
 }
 
 .header-right:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(37, 226, 94, 0.5);
   }
 
 .header-right a {
     line-height: 65px;
     padding-left: 25px;
     padding-right:25px;
-    color:white;
+    color:grey ;
     display: block;
 }
 
+.container h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container p {
+    font-size: 20px;
+}
 /* CSS for Cake-types*/
 .Cake-types {
     height:500px ;
@@ -131,6 +100,8 @@ header {
 }
 .heading h2 {
     font-weight: normal;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .type {
@@ -222,10 +193,42 @@ header {
     background-color:#FAFCFE;
 }
 
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
 .message {
   background-color: #5dca88;
-  padding-top: 15px;
-  padding-bottom: 15px;  
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 15px 40px ;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+
+}
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.heading h2 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+footer img {
+    width: 115px;
+    border-radius: 50%;
+}
+
+footer p {
+    color: rgb(45, 44, 46);
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: rgba(216, 233, 236, 0.9);
 }
