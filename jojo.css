@@ -106,7 +106,9 @@ header {
 
 .type {
     float:left;
-    width: 20%;
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .cropped-image1 {
@@ -233,13 +235,23 @@ footer {
     background-color: rgba(216, 233, 236, 0.9);
 }
 
-/* Tablet Landscape */
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    #secondary { width:30%; margin-left:3%;}  
+
+/* Making the webpage mobile responsive */
+
+/* For tablet mode */
+@media(max-width:1000px) {
+    .types {
+        width: 50%;
+    }
 }
-/* Tabled Portrait */
-@media screen and (max-width: 768px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
+
+/* For smartphone mode */
+@media(max-width:670px) {
+    .types {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
 }
