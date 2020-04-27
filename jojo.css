@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
     margin: 0;
     font-family: "Lucida Grande";
@@ -6,10 +12,15 @@ body {
 a {
     text-decoration: none;
 }
+
+.clear {
+    clear: left;
+}
  
 /* CSS for container*/
 .container {
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -60,6 +71,15 @@ header {
     float: left;
 }
 
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Change the display property to none */
+    display: none;
+  }
+
 .header-right {
     float: right;
     background-color:rgba(255, 255, 255, 0.3) ;
@@ -88,7 +108,7 @@ header {
 }
 /* CSS for Cake-types*/
 .Cake-types {
-    height:500px ;
+
     padding-bottom: 80px;
     background-color:#f7f7f7 ;
     text-align: center;
@@ -196,25 +216,4 @@ footer p {
 footer {
     padding-top: 20px;
     background-color: rgba(216, 233, 236, 0.9);
-}
-
-
-/* Making the webpage mobile responsive */
-
-/* For tablet mode */
-@media(max-width:1000px) {
-    .types {
-        width: 50%;
-    }
-}
-
-/* For smartphone mode */
-@media(max-width:670px) {
-    .types {
-        width: 100%;
-    }
-}
-
-* {
-    box-sizing: border-box;
 }
