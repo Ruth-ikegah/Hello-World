@@ -35,13 +35,7 @@
         text-align: center;
     }
 
-    .header-right {
-        display: none;
-    }
-
-    .menu-icon {
-        display: block;
-    }
+    
 
 
 /* CSS for h1 and p tags */
@@ -50,6 +44,8 @@
     font-size:24px ;
     line-height: 36px;
 }
+
+
 
 .top-wrapper p {
     font-size: 14px;
